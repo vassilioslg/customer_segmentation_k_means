@@ -23,7 +23,7 @@ To visualize the three feature variables, a 3-D scatter plot was generated. Prio
 
 Though K-Means has several advantages in that it is quick (with O(n·k·d·i) time complexity where n, k, d, i = no. datapoints, no. clusters, no. dimensions, no. iterations), and simple to interpret, its drawback is that the number of clusters is predetermined and thus must be set beforehand. Thus the algorithm must be repeated several time across a variety of cluster initializations in order to determine the optimal cluster number. After doing this, the inertia values for each initialization were obtained. These represent the average sum of squared distances between the centroid of each cluster and its assigned points, with a lower score evidencing better clustering. These values are used to draw what is termed an 'elbow plot'.
 
-<img width="994" height="659" alt="elbow" src="https://github.com/user-attachments/assets/8a071597-e920-40b6-b46e-2622961bd6cb" />
+<img width="1014" height="679" alt="Elbowplot" src="https://github.com/user-attachments/assets/238767d1-175a-426b-8e07-6b7e42448871" />
 
 The inertia will decrease naturally with the number of clusters as k tends towards the number of datapoints. With more centroids available, datapoints will naturally sit closer to one of these cluster centers. Thus selecting the number of clusters purely with the objective of minimizing inertia is an ineffective strategy. Instead, the optimal practice is to select the number of clusters which correspond to the 'elbow' of the elbow plot, i.e. the inflection point which in the above diagram sits subjectively at either k = 3 or k = 4. 
 
@@ -55,7 +55,9 @@ Customers in this cluster show above average spending and frequency though these
 
 A summary of the information derived from cluster analysis is presented below.
 
-<img width="1050" height="679" alt="final" src="https://github.com/user-attachments/assets/81920476-7523-4bed-be1b-670e2499ca3b" />
+<img width="1050" height="679" alt="fin" src="https://github.com/user-attachments/assets/1d058e00-faa1-499c-95fe-c6b9d82a5e4b" />
+
+Cluster 1 holds the highest number of customers and thus represents the biggest opportunity for potential revenue gain for the business.
 
 Outlier customers were analyzed separately and formed three distinct groups : Monetary Outliers (M), Frequency Outliers (F) and Monetary and Frequency Outliers (M&F). 
 
