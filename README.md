@@ -57,6 +57,8 @@ A summary of the information derived from cluster analysis is presented below.
 
 <img width="1050" height="679" alt="fin" src="https://github.com/user-attachments/assets/1d058e00-faa1-499c-95fe-c6b9d82a5e4b" />
 
+Cluster 1 holds the highest number of customers and thus represents the biggest opportunity for potential revenue gain for the business.
+
 Outlier customers were analyzed separately and formed three distinct groups : Monetary Outliers (M), Frequency Outliers (F) and Monetary and Frequency Outliers (M&F). 
 
 ### Cluster M : 
